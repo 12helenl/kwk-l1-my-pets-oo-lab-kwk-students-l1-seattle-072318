@@ -8,9 +8,9 @@ class Cat
     @mood = mood
   end
   
-  def mood(new_mood)
-    @mood = new_mood
-  end
+  # def mood(new_mood)
+  #   @mood = new_mood
+  # end
 end
 
 # cat_1 = Cat.new("Crookshanks", "playful")
