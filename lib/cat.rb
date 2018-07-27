@@ -7,14 +7,9 @@ class Cat
     @name = name
     @nervous_mood = mood
   end
-  
-  def mood(new_mood)
-    @mood = new_mood
-  end
-  
 end
 
-cat_1 = Cat.new("Crookshanks")
-cat_2 = Cat.new("Mr. Whiskers")
+cat_1 = Cat.new("Crookshanks", "playful")
+cat_2 = Cat.new("Mr. Whiskers","Happy")
 puts cat_1.name 
-puts cat_1.mood = "Happy"
+puts cat_1.mood 
