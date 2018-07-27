@@ -10,4 +10,4 @@ class Cat
 
 end
 
-cat_
+cat_1 = Cat.new ()
