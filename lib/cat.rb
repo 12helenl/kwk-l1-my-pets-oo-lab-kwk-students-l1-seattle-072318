@@ -14,7 +14,7 @@ class Cat
   
 end
 
-cat_1 = Cat.new ("Crookshanks")
-cat_2 = Cat.new ("Mr. Whiskers")
+cat_1 = Cat.new("Crookshanks")
+cat_2 = Cat.new("Mr. Whiskers")
 puts cat_1.name 
 puts cat_1.mood = "Happy"
