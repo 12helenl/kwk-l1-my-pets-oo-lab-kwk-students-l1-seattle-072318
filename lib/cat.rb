@@ -10,4 +10,4 @@ class Cat
 
 end
 
-cat_1 = Cat.new ()
+cat_1 = Cat.new ("Crookshank")
